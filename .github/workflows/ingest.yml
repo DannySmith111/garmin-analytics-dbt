@@ -1,0 +1,14 @@
+name: Garmin Ingestion (stub)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Print message
+        run: echo "Garmin ingestion pipeline placeholder"
